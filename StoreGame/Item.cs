@@ -27,13 +27,13 @@ namespace StoreGame
     {
         
 
-         string itemName;
-         string itemInfo;
-
-         int price;
-         int health;
-         int armor;
-         int damage;
+         public string itemName;
+         public string itemInfo;
+          
+         public int price;
+         public int health;
+         public int armor;
+         public int damage;
 
         public Item(string itemName, string itemInfo, int price, int health, int armor, int damage)
         {

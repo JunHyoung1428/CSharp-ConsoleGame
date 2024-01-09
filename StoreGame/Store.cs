@@ -28,7 +28,6 @@ namespace StoreGame
             Console.WriteLine("2. 아이템 판매");
             Console.WriteLine("3. 아이템 확인");
 
-
             ConsoleKeyInfo key;
             do
             {
