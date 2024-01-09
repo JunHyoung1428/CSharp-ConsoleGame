@@ -16,24 +16,20 @@ namespace NumberBaseBall
     internal class Program
     {
        
-        static void InitGame()
-        {
-            Console.WriteLine("*******************************");
-            Console.WriteLine("********** 숫자 야구 **********");
-            Console.WriteLine("*******************************\n");
-
-        }
+        
         static void Main(string[] args)
         {
             InitGame();
             COM com = new COM();
             Player player = new Player();
-            
-          
-            PlayGame(com, player);
-            
+            PlayGame(com, player);    
         }
-
+        static void InitGame()
+        {
+            Console.WriteLine("*******************************");
+            Console.WriteLine("********** 숫자 야구 **********");
+            Console.WriteLine("*******************************\n");
+        }
         static void PlayGame(COM com, Player player)
         {
             int life = player.GetLife();
@@ -54,6 +50,7 @@ namespace NumberBaseBall
             int[] comChoice = com.GetComChoice();
             int[] playerChoice = player.GetPlayerChoice();
 
+            // COM이 가진 숫자와 Player의 숫자를 비교, 볼과 스트라이크 카운트 가산
             for(int i = 0; i < comChoice.Length; i++)
             {
                 if (comChoice[i] == playerChoice[i])
@@ -66,6 +63,7 @@ namespace NumberBaseBall
                 }
             }
 
+            //볼과 스트라이크 카운트에 따라 결과 출력
             if(strikeCnt == 4)
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
