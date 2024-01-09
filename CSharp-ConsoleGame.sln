@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-ConsoleGame", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidePuzzle", "SlidePuzzle\SlidePuzzle.csproj", "{168E51D4-7453-45D1-A354-74E2093B369E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockScissorsPaper", "RockScissorsPaper\RockScissorsPaper.csproj", "{1E07D3D7-2E8C-4DE3-80FA-08DE6F11B7E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{168E51D4-7453-45D1-A354-74E2093B369E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{168E51D4-7453-45D1-A354-74E2093B369E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{168E51D4-7453-45D1-A354-74E2093B369E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E07D3D7-2E8C-4DE3-80FA-08DE6F11B7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E07D3D7-2E8C-4DE3-80FA-08DE6F11B7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E07D3D7-2E8C-4DE3-80FA-08DE6F11B7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E07D3D7-2E8C-4DE3-80FA-08DE6F11B7E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
