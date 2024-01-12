@@ -16,6 +16,8 @@ namespace BlackJack
         string strNumber; // A ,2 ,3 ,4 5 ~ 10 , J , Q , K
         int power;
 
+        public int Power { get { return power; } }
+
         // id 에 따라 카드의 심볼과 숫자를 세팅하는 생성자
         public Card(int id)
         {
