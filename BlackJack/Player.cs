@@ -9,11 +9,11 @@ namespace BlackJack
     internal class Player
     {
         List<Card> hand;
-        //flag 변수
+        //flag 변수 추가할것
 
-        public virtual void ISDraw()
+        public void Draw(Card card)
         {
-
+            hand.Add(card);
         }
 
         public void Judge()
@@ -27,10 +27,12 @@ namespace BlackJack
             if (sum == 21)
             {
                 // WIN
+                // flag 변경
             }
             else if(sum > 21)
             {
                 //Burst
+                // flag 변경
             }
             else
             {
